@@ -1,0 +1,226 @@
+================================================================
+        BHARAT — THE COLORS OF INDIA (ainfo.txt)
+        Complete Rebuild — Pure CSS/HTML Digital Exhibition
+================================================================
+
+PROJECT INFO
+----------------------------------------------------------------------
+Created   : 2026-07-16
+Files     : index.html (main), ainfo.txt (this file)
+Stack     : 100% HTML5 + CSS3 — Zero JavaScript, Zero Libraries
+Target    : Desktop (1920x1080), Chrome 90+, Firefox 90+, Edge 90+
+Artisan   : Complete rebuild from scratch
+
+----------------------------------------------------------------------
+ARCHITECTURE
+----------------------------------------------------------------------
+- Single index.html file for pendrive portability
+- CSS layered architecture: 14 distinct sections
+- 13 narrative scenes + 1 cinematic opening
+- Every element exists in 3D space via CSS perspective transforms
+- Scroll-snap for scene transitions
+- CSS parallax for depth perception
+- All animations via @keyframes — zero JS
+- All particles via box-shadow arrays
+- All glass effects via backdrop-filter + rgba layering
+- System font stack only (no external dependencies)
+- Desktop-only, optimized for 1920x1080
+- No navigation — pure cinematic story flow
+
+----------------------------------------------------------------------
+DESIGN SYSTEM TOKENS
+----------------------------------------------------------------------
+Colors:
+  --saffron: #FF9933, --saffron-d: #CC5500, --saffron-l: #FFB347
+  --green: #138808, --green-l: #1CB51C
+  --ashoka: #000080, --ashoka-l: #1a1aff
+  --gold: #D4AF37, --gold-l: #E8CC6A
+  --navy: #0A0A2E, --space: #05051A
+  --crimson: #DC143C, --neon: #00D4FF
+  --cyber-p: #FF00FF, --cyber-g: #00FF88
+  --glass-bg: rgba(255,255,255,0.035)
+
+Easing:
+  --ease-s: cubic-bezier(.25,.46,.45,.94)
+  --ease-c: cubic-bezier(.87,0,.13,1)  [cinematic]
+  --ease-e: cubic-bezier(.19,1,.22,1)  [expo out]
+
+----------------------------------------------------------------------
+SCENES COMPLETED
+----------------------------------------------------------------------
+
+SCENE 00 — CINEMATIC OPENING
+  - Black screen with noise texture + star field
+  - 28 glowing particles (box-shadow) emerging from darkness
+  - Golden radial light pulse
+  - Ashoka Chakra: 12 animated spokes, dual rings, hub, aura glow
+  - 12 orbital golden particles
+  - 3 tricolor light streams (saffron/white/green)
+  - 15-strip flag formation with fabric overlay + mini chakra
+  - Flag fly-up animation
+  - India map silhouette (clip-path polygon)
+  - "BHARAT" title reveal with subtitle
+  - 16.5s total cinematic sequence
+
+SCENE 01 — BIRTH OF INDIA
+  - Warm gradient background with fog layers
+  - Volumetric light rays (repeating-linear-gradient)
+  - Large cinematic h1 "BIRTH OF INDIA" with gold gradient text
+  - Floating golden orb
+  - Dual parallax light lines
+
+SCENE 02 — UNITY IN DIVERSITY
+  - 3 rotating concentric circles (saffron/green/blue borders)
+  - 4 floating glass circles with religious symbols (Om/Dharmachakra/Star of David/Crescent)
+  - Each at different Z-depth and float timing
+  - Blue ambient glow center
+
+SCENE 03 — ANCIENT CIVILIZATIONS
+  - 3D perspective glass panels:
+    "The Zero" with 6.5rem gold zero
+    "Ancient Science" with tool icon
+    "Vedic Literature" with plant icon
+  - Golden ambient glow + star background
+
+SCENE 04 — HERITAGE MONUMENTS (Museum)
+  - 3 premium museum exhibits on floating pedestals
+  - Taj Mahal, Konark, Qutub Minar
+  - Each with: glass pane, reflection, pedestal platform, shadow
+  - Ambient saffron glow background
+  - Hover: brightness increase, border glow, elevation
+
+SCENE 05 — ARCHITECTURE
+  - 5 arched column silhouettes (border + border-radius)
+  - Various heights and skewX transforms
+  - Central vertical light beam
+  - Descriptive text
+
+SCENE 06 — FESTIVALS
+  - 6 glass cards in 3x2 grid layout
+  - DIWALI: saffron dashed bar, warm ambient
+  - HOLI: rainbow gradient bar, pink ambient
+  - EID: blue geometric bar, cyan ambient
+  - CHRISTMAS: red striped bar, green ambient
+  - PONGAL: gold gradient bar, gold ambient
+  - NAVRATRI: conic crimson-gold bar, red ambient
+  - Each with unique color accent and ambient glow
+
+SCENE 07 — CUISINE (Luxury Exhibition)
+  - 5 floating food items on glass spheres
+  - Biryani, Dosa, Butter Chicken, Jalebi, Laddu
+  - Each on pedestal with platform + shadow
+  - Staggered float animations
+  - Golden bottom gradient
+
+SCENE 08 — WILDLIFE
+  - CSS triangle tree silhouettes (border trick)
+  - 4 glass circles: Tiger, Peacock, Elephant, Lion
+  - Green forest ambient gradient
+  - Breathing glow animation
+
+SCENE 09 — CLASSICAL ARTS
+  - 2x2 grid of tilted glass panels (rotateY/rotateX)
+  - Bharatanatyam (crimson), Carnatic Music (saffron)
+  - Sitar & Tabla (gold), Kathakali (green)
+  - Crimson ambient background
+
+SCENE 10 — ISRO SPACE
+  - Deep space background with 20+ star positions
+  - CSS-rendered Earth (radial-gradient + shadow)
+  - CSS-rendered Moon with craters
+  - Rocket with conic-gradient flame + launch animation
+  - 2 orbital rings (rotateX 75deg perspective)
+  - Satellite with solar panels
+  - HUD telemetry panel (monospace, hologram flicker)
+
+SCENE 11 — DIGITAL INDIA
+  - Animated grid background (scrolling)
+  - 4 neural pulse dots (cyan/green/pink)
+  - 2 hologram panels:
+    "DIGITAL INDIA" with 5 tech items + status dots
+    "INNOVATION" with AI/IOT/WEB3/BLOCK grid
+  - Scanning line animation
+
+SCENE 12 — FUTURE INDIA
+  - 7 futuristic skyline buildings (clip-path polygons)
+  - 2 animated light trails (saffron + cyan)
+  - Warm bottom ambient glow
+  - Visionary typography
+
+SCENE 13 — CINEMATIC ENDING
+  - 3 memory panels with Y-rotation depth
+    "Birth of India" (saffron), "The Journey" (gold), "Future Ahead" (green)
+  - "JAI HIND" with tricolor gradient text
+  - Subtitle + "CRAFTED WITH PURE HTML & CSS" badge
+  - Golden pulsing light center
+  - 2 concentric breathing rings
+
+----------------------------------------------------------------------
+ANIMATION KEYFRAMES (30 total)
+----------------------------------------------------------------------
+fi, fu, fl, pg, br, rs, rr, ls, cm, cs,
+fw1-5, ff, op, os, sl, hf, np, gs, rl, memory-fade
+
+----------------------------------------------------------------------
+FINAL METRICS
+----------------------------------------------------------------------
+Total lines    : 327 (minified HTML with inline styles)
+Scenes         : 13 + opening
+Glass elements : 30+
+3D transforms  : 40+ elements
+Layers         : 5 depth layers per scene
+Hover states   : All .gl elements
+Scroll snaps   : 13 scene boundaries
+File size      : ~38 KB
+Dependencies   : ZERO — pure HTML + CSS only
+JavaScript     : ZERO
+
+================================================================
+=== Thu Jul 16 05:31:38 PM IST 2026 ===
+Replaced index.html with full production reference (1638 lines)
+Created style.css (4626 lines) from reference
+Fixed CSS link path: /style.css -> style.css
+
+=== Thu Jul 16 05:45:00 PM IST 2026 ===
+Added .mex-desc to monument labels (historic details for Taj, India Gate, Konark, Qutub, Charminar, Hampi)
+Added .aex-desc to ancient exhibits (Brahmi, Zero, Ayurveda, Chess, Yoga)
+Added .fest-desc to all festival labels (Diwali, Holi, Eid, Pongal, Navratri, Christmas)
+Added .dish-desc to all dish labels (Biryani, Dosa, Butter Chicken, Jalebi, Laddu)
+Deepened scene body texts throughout (hero, unity, ancient, arts, isro, digital, future, finale)
+Added .mex-desc, .fest-desc, .dish-desc, .aex-desc CSS rules
+index.html: 1638→1667 lines | style.css: 4626→5639 lines
+
+=== Thu Jul 16 06:15:00 PM IST 2026 ===
+Added tap-to-explore (pure CSS checkbox hack) on all 26 exhibits:
+  - 6 Monuments (Taj, India Gate, Konark, Qutub, Charminar, Hampi)
+  - 6 Festivals (Diwali, Holi, Eid, Pongal, Navratri, Christmas)
+  - 5 Dishes (Biryani, Dosa, Butter Chicken, Jalebi, Laddu)
+  - 5 Ancient exhibits (Brahmi, Zero, Ayurveda, Chess, Yoga)
+  - 4 Animals (Tiger, Peacock, Elephant, Snow Leopard)
+Each exhibit toggles a detail panel with 3-4 paragraphs of in-depth info
+CSS: .ex-toggle, .*-front, .*-detail, .ex-tap-hint, .ex-det-close, .mex-det-scroll
+index.html: 1667→2021 lines | style.css: 5639→5770 lines
+
+=== Thu Jul 16 06:15:00 PM IST 2026 ===
+Added tap-to-explore (pure CSS checkbox hack) on all 26 exhibits:
+  - 6 Monuments (Taj, India Gate, Konark, Qutub, Charminar, Hampi)
+  - 6 Festivals (Diwali, Holi, Eid, Pongal, Navratri, Christmas)
+  - 5 Dishes (Biryani, Dosa, Butter Chicken, Jalebi, Laddu)
+  - 5 Ancient exhibits (Brahmi, Zero, Ayurveda, Chess, Yoga)
+  - 4 Animals (Tiger, Peacock, Elephant, Snow Leopard)
+Each exhibit toggles a detail panel with 3-4 paragraphs of in-depth info
+CSS: .ex-toggle, .*-front, .*-detail, .ex-tap-hint, .ex-det-close, .mex-det-scroll
+index.html: 1667→2021 lines | style.css: 5639→5770 lines
+
+=== Thu Jul 16 06:45:00 PM IST 2026 ===
+Upgraded detail panels to fixed-centered modals with scale-in animation:
+- All panels now position:fixed, centered at 50%/50%, 540px wide, 80vh max-height
+- Animated with scale(0.85)→scale(1) + fade, overshoot ease-out-back curve
+- Backdrop overlay with blur via ::before pseudo-element
+- Font sizes increased: h4→1.1rem, p→0.85rem for readability
+- Switched from checkbox to radio buttons (name="ex-modal") for mutual exclusivity
+- Master #ex-close radio allows any open panel to be dismissed
+- Jet-engine tricolor opening: lstreams shoot in from right with exhaust glow,
+  afterburner cone, scattering spark particles, and transform scale burst
+  Keyframes: lstream-jet, jet-afterburner, jet-sparks
+index.html: 2021→2022 lines | style.css: 5770→5838 lines
