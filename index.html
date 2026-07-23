@@ -605,6 +605,25 @@
     <div class="atl-node" style="--p:100%"><div class="atln-dot"></div><div class="atln-label"><b>1600 CE</b><br>Mughal Empire</div></div>
   </div>
 
+  <!-- Interactive Brahmi Name Generator -->
+  <div class="brahmi-generator">
+    <div class="brahmi-gen-inner">
+      <div class="brahmi-gen-header">
+        <span class="brahmi-gen-icon">𑀅</span>
+        <h3>English to Brahmi Translator</h3>
+        <p>By using conventional AI made by JS</p>
+      </div>
+      <div class="brahmi-gen-input-row">
+        <input type="text" id="brahmi-input" placeholder="Type your name..." maxlength="20" autocomplete="off" spellcheck="false">
+        <button id="brahmi-convert" class="brahmi-btn">Convert</button>
+      </div>
+      <div class="brahmi-gen-output">
+        <div id="brahmi-output" class="brahmi-result-text"></div>
+      </div>
+      <button id="brahmi-download" class="brahmi-btn brahmi-dl-btn">Download Parchment Card</button>
+    </div>
+  </div>
+
   <div class="ancient-content">
     <span class="sno">03</span>
     <h2 class="scene-title">Ancient Civilisation</h2>
@@ -645,26 +664,7 @@
       <div class="mex-front">
         <div class="mex-spotlight"></div>
         <div class="mex-artwork">
-          <div class="taj">
-            <div class="taj-platform"><div class="taj-pool-hint"></div></div>
-            <div class="taj-body">
-              <div class="taj-minaret taj-ml-far"></div>
-              <div class="taj-minaret taj-ml-near"></div>
-              <div class="taj-central">
-                <div class="taj-iwan"></div>
-                <div class="taj-drum"></div>
-                <div class="taj-dome"></div>
-                <div class="taj-finial"></div>
-                <div class="taj-chattri taj-c1"></div>
-                <div class="taj-chattri taj-c2"></div>
-                <div class="taj-chattri taj-c3"></div>
-                <div class="taj-chattri taj-c4"></div>
-              </div>
-              <div class="taj-minaret taj-mr-near"></div>
-              <div class="taj-minaret taj-mr-far"></div>
-            </div>
-            <div class="taj-reflection"></div>
-          </div>
+          <img src="images/taj-mahal.jpg" alt="Taj Mahal" class="monument-img">
         </div>
         <div class="mex-pedestal">
           <div class="mex-ped-glass"></div>
@@ -694,15 +694,7 @@
       <div class="mex-front">
         <div class="mex-spotlight"></div>
         <div class="mex-artwork">
-          <div class="indiagate">
-            <div class="ig-arch-outer"></div>
-            <div class="ig-arch-inner"></div>
-            <div class="ig-left-pillar"></div>
-            <div class="ig-right-pillar"></div>
-            <div class="ig-base"></div>
-            <div class="ig-flame"></div>
-            <div class="ig-flame-glow"></div>
-          </div>
+          <img src="images/indiangate.avif" alt="India Gate" class="monument-img">
         </div>
         <div class="mex-pedestal">
           <div class="mex-ped-glass"></div>
@@ -732,16 +724,7 @@
       <div class="mex-front">
         <div class="mex-spotlight"></div>
         <div class="mex-artwork">
-          <div class="konark">
-            <div class="konark-rekha"></div>
-            <div class="konark-t1"></div>
-            <div class="konark-t2"></div>
-            <div class="konark-t3"></div>
-            <div class="konark-jagamohana"></div>
-            <div class="konark-wheel kw-1"></div>
-            <div class="konark-wheel kw-2"></div>
-            <div class="konark-platform"></div>
-          </div>
+          <img src="images/suntemple.webp" alt="Konark Sun Temple" class="monument-img">
         </div>
         <div class="mex-pedestal">
           <div class="mex-ped-glass"></div>
@@ -771,17 +754,7 @@
       <div class="mex-front">
         <div class="mex-spotlight"></div>
         <div class="mex-artwork">
-          <div class="qutub">
-            <div class="qm-tip"></div>
-            <div class="qm-stage qm-s1"></div>
-            <div class="qm-balcony qm-b1"></div>
-            <div class="qm-stage qm-s2"></div>
-            <div class="qm-balcony qm-b2"></div>
-            <div class="qm-stage qm-s3"></div>
-            <div class="qm-balcony qm-b3"></div>
-            <div class="qm-stage qm-s4"></div>
-            <div class="qm-base"></div>
-          </div>
+          <img src="images/qutubminar.avif" alt="Qutub Minar" class="monument-img">
         </div>
         <div class="mex-pedestal">
           <div class="mex-ped-glass"></div>
@@ -811,21 +784,7 @@
       <div class="mex-front">
         <div class="mex-spotlight"></div>
         <div class="mex-artwork">
-          <div class="charminar">
-            <div class="cm-minaret cm-m1"></div>
-            <div class="cm-minaret cm-m2"></div>
-            <div class="cm-minaret cm-m3"></div>
-            <div class="cm-minaret cm-m4"></div>
-            <div class="cm-arches"></div>
-            <div class="cm-gallery"></div>
-            <div class="cm-upper"></div>
-            <div class="cm-domes">
-              <div class="cm-dome"></div>
-              <div class="cm-dome"></div>
-              <div class="cm-dome"></div>
-              <div class="cm-dome"></div>
-            </div>
-          </div>
+          <img src="images/charminar.jpg" alt="Charminar" class="monument-img">
         </div>
         <div class="mex-pedestal">
           <div class="mex-ped-glass"></div>
@@ -855,18 +814,7 @@
       <div class="mex-front">
         <div class="mex-spotlight"></div>
         <div class="mex-artwork">
-          <div class="hampi">
-            <div class="hampi-gopuram">
-              <div class="hg-tier hg-t1"></div>
-              <div class="hg-tier hg-t2"></div>
-              <div class="hg-tier hg-t3"></div>
-              <div class="hg-tier hg-t4"></div>
-              <div class="hg-tier hg-t5"></div>
-              <div class="hg-finial"></div>
-            </div>
-            <div class="hampi-mandapa"></div>
-            <div class="hampi-platform"></div>
-          </div>
+          <img src="images/hampi.jpeg" alt="Hampi Stone Chariot" class="monument-img">
         </div>
         <div class="mex-pedestal">
           <div class="mex-ped-glass"></div>
@@ -907,269 +855,129 @@
 
   <div class="festivals-grid">
 
-    <!-- DIWALI -->
-    <div class="festival f-diwali">
+    <!-- ══════════ DIWALI ══════════ -->
+    <div class="festival f-diwali" id="fest-diwali">
       <input type="radio" name="ex-modal" class="ex-toggle" id="fdiw">
       <div class="fest-front">
-        <div class="diwali-sky"></div>
-        <div class="diwali-glow-bg"></div>
-        <div class="diwali-fireworks">
-          <div class="fw-burst fb-1" style="--x:20%;--y:25%;--c:#FFD700"></div>
-          <div class="fw-burst fb-2" style="--x:50%;--y:15%;--c:#FF6B6B"></div>
-          <div class="fw-burst fb-3" style="--x:80%;--y:30%;--c:#4ECDC4"></div>
-          <div class="fw-burst fb-4" style="--x:35%;--y:40%;--c:#FF9933"></div>
-        </div>
-        <div class="diwali-rangoli">
-          <div class="rangoli-inner"></div>
-          <div class="rangoli-petals"></div>
-        </div>
-        <div class="diwali-diyas">
-          <div class="diya" style="--x:8%;--y:75%;--s:1.0"><div class="diya-body"></div><div class="diya-flame"><div class="flame-inner"></div></div><div class="diya-glow"></div></div>
-          <div class="diya" style="--x:18%;--y:80%;--s:0.85"><div class="diya-body"></div><div class="diya-flame"><div class="flame-inner"></div></div><div class="diya-glow"></div></div>
-          <div class="diya" style="--x:30%;--y:77%;--s:1.1"><div class="diya-body"></div><div class="diya-flame"><div class="flame-inner"></div></div><div class="diya-glow"></div></div>
-          <div class="diya" style="--x:42%;--y:82%;--s:0.9"><div class="diya-body"></div><div class="diya-flame"><div class="flame-inner"></div></div><div class="diya-glow"></div></div>
-          <div class="diya" style="--x:55%;--y:76%;--s:1.0"><div class="diya-body"></div><div class="diya-flame"><div class="flame-inner"></div></div><div class="diya-glow"></div></div>
-          <div class="diya" style="--x:67%;--y:79%;--s:0.8"><div class="diya-body"></div><div class="diya-flame"><div class="flame-inner"></div></div><div class="diya-glow"></div></div>
-          <div class="diya" style="--x:78%;--y:74%;--s:1.05"><div class="diya-body"></div><div class="diya-flame"><div class="flame-inner"></div></div><div class="diya-glow"></div></div>
-          <div class="diya" style="--x:88%;--y:81%;--s:0.9"><div class="diya-body"></div><div class="diya-flame"><div class="flame-inner"></div></div><div class="diya-glow"></div></div>
-        </div>
+        <img src="images/diwali.jpeg" alt="Diwali" class="fest-bg-img">
         <div class="fest-label">
           <h3>Diwali</h3>
           <p>Festival of Lights</p>
-          <span class="fest-desc">Rows of clay lamps (diyas) light up every home — symbolising the triumph of light over darkness, knowledge over ignorance.</span>
+          <span class="fest-desc">Rows of clay lamps light up every home — the triumph of light over darkness.</span>
         </div>
         <label for="fdiw" class="ex-tap-hint">Tap</label>
       </div>
       <div class="fest-detail">
-        <div class="mex-det-scroll">
+        <div class="fest-det-scroll">
           <h4>Diwali</h4>
           <p>The Festival of Lights, India's biggest holiday, celebrating the victory of light over darkness and good over evil, marked by the lighting of earthen lamps (diyas), fireworks, and sharing sweets.</p>
         </div>
-        <label for="ex-close" class="ex-det-close">✕</label>
+        <label for="ex-close" class="ex-det-close">&#x2715;</label>
       </div>
     </div>
 
-    <!-- HOLI -->
-    <div class="festival f-holi">
+    <!-- ══════════ HOLI ══════════ -->
+    <div class="festival f-holi" id="fest-holi">
       <input type="radio" name="ex-modal" class="ex-toggle" id="fhol">
       <div class="fest-front">
-        <div class="holi-bg"></div>
-        <div class="holi-splash hs-1"></div>
-        <div class="holi-splash hs-2"></div>
-        <div class="holi-splash hs-3"></div>
-        <div class="holi-splash hs-4"></div>
-        <div class="holi-splash hs-5"></div>
-        <div class="holi-powder">
-          <span style="--c:#FF6B6B;--i:0;--x:15%;--y:30%"></span>
-          <span style="--c:#FFE66D;--i:1;--x:35%;--y:60%"></span>
-          <span style="--c:#4ECDC4;--i:2;--x:60%;--y:25%"></span>
-          <span style="--c:#FF8C42;--i:3;--x:75%;--y:55%"></span>
-          <span style="--c:#A855F7;--i:4;--x:25%;--y:70%"></span>
-          <span style="--c:#22D3EE;--i:5;--x:80%;--y:35%"></span>
-          <span style="--c:#F9A825;--i:6;--x:50%;--y:80%"></span>
-          <span style="--c:#EF5350;--i:7;--x:10%;--y:50%"></span>
-        </div>
-        <div class="holi-blur-overlay"></div>
+        <img src="images/holi.jpeg" alt="Holi" class="fest-bg-img">
         <div class="fest-label">
           <h3>Holi</h3>
           <p>Festival of Colours</p>
-          <span class="fest-desc">The spring festival where powdered colours fill the air — celebrating the triumph of Prahlada's devotion and the arrival of radiant spring.</span>
+          <span class="fest-desc">Powdered colours fill the air — celebrating the triumph of devotion and radiant spring.</span>
         </div>
         <label for="fhol" class="ex-tap-hint">Tap</label>
       </div>
       <div class="fest-detail">
-        <div class="mex-det-scroll">
+        <div class="fest-det-scroll">
           <h4>Holi</h4>
           <p>The vibrant Festival of Colors celebrating the arrival of spring and eternal love, where communities take to the streets to playfully drench each other in colored water and powders.</p>
         </div>
-        <label for="ex-close" class="ex-det-close">✕</label>
+        <label for="ex-close" class="ex-det-close">&#x2715;</label>
       </div>
     </div>
 
-    <!-- EID -->
-    <div class="festival f-eid">
+    <!-- ══════════ EID ══════════ -->
+    <div class="festival f-eid" id="fest-eid">
       <input type="radio" name="ex-modal" class="ex-toggle" id="feid">
       <div class="fest-front">
-        <div class="eid-night-sky"></div>
-        <div class="eid-stars">
-          <span style="--x:10%;--y:15%"></span><span style="--x:25%;--y:8%"></span>
-          <span style="--x:40%;--y:20%"></span><span style="--x:60%;--y:10%"></span>
-          <span style="--x:75%;--y:25%"></span><span style="--x:85%;--y:12%"></span>
-          <span style="--x:50%;--y:30%"></span><span style="--x:15%;--y:35%"></span>
-        </div>
-        <div class="eid-moon">
-          <div class="eid-moon-crescent"></div>
-          <div class="eid-moon-glow"></div>
-        </div>
-        <div class="eid-geo">
-          <div class="eid-geo-ring eid-gr-1"></div>
-          <div class="eid-geo-ring eid-gr-2"></div>
-          <div class="eid-geo-pattern"></div>
-        </div>
-        <div class="eid-lanterns">
-          <div class="eid-lantern" style="--i:0"></div>
-          <div class="eid-lantern" style="--i:1"></div>
-          <div class="eid-lantern" style="--i:2"></div>
-        </div>
+        <img src="images/eid.jpeg" alt="Eid" class="fest-bg-img">
         <div class="fest-label">
           <h3>Eid al-Fitr</h3>
           <p>Festival of Breaking Fast</p>
-          <span class="fest-desc">Marking the end of Ramadan, the crescent moon ushers in prayers, feasts, and charity (Zakat al-Fitr) — celebrated by over 200 million Indian Muslims.</span>
+          <span class="fest-desc">The crescent moon ushers in prayers, feasts, and charity — celebrated by over 200 million Indian Muslims.</span>
         </div>
         <label for="feid" class="ex-tap-hint">Tap</label>
       </div>
       <div class="fest-detail">
-        <div class="mex-det-scroll">
+        <div class="fest-det-scroll">
           <h4>Eid</h4>
-          <p>Major Islamic celebrations (Eid al-Fitr and Eid al-Adha) marked by special congregational prayers, the wearing of new clothes, charitable giving, and grand feasts featuring dishes like sheer khurma and biryani.</p>
+          <p>Major Islamic celebrations marked by special congregational prayers, the wearing of new clothes, charitable giving, and grand feasts featuring dishes like sheer khurma and biryani.</p>
         </div>
-        <label for="ex-close" class="ex-det-close">✕</label>
+        <label for="ex-close" class="ex-det-close">&#x2715;</label>
       </div>
     </div>
 
-    <!-- PONGAL -->
-    <div class="festival f-pongal">
+    <!-- ══════════ PONGAL ══════════ -->
+    <div class="festival f-pongal" id="fest-pongal">
       <input type="radio" name="ex-modal" class="ex-toggle" id="fpon">
       <div class="fest-front">
-        <div class="pongal-sky"></div>
-        <div class="pongal-sun">
-          <div class="pongal-sun-core"></div>
-          <div class="pongal-sun-rays">
-            <span style="--i:0"></span><span style="--i:1"></span><span style="--i:2"></span>
-            <span style="--i:3"></span><span style="--i:4"></span><span style="--i:5"></span>
-            <span style="--i:6"></span><span style="--i:7"></span>
-          </div>
-        </div>
-        <div class="pongal-fields"></div>
-        <div class="pongal-kolam">
-          <div class="kolam-outer"></div>
-          <div class="kolam-mid"></div>
-          <div class="kolam-inner"></div>
-        </div>
-        <div class="pongal-pot-scene">
-          <div class="ppot">
-            <div class="ppot-handle-left"></div>
-            <div class="ppot-handle-right"></div>
-            <div class="ppot-body"></div>
-            <div class="ppot-neck"></div>
-            <div class="ppot-rim"></div>
-            <div class="ppot-overflow">
-              <div class="ppot-milk"></div>
-            </div>
-          </div>
-          <div class="ppot-steam">
-            <span style="--i:0"></span><span style="--i:1"></span><span style="--i:2"></span>
-          </div>
-          <div class="ppot-fire">
-            <div class="pfire-flame pf-1"></div>
-            <div class="pfire-flame pf-2"></div>
-            <div class="pfire-flame pf-3"></div>
-          </div>
-        </div>
-        <div class="pongal-sugarcane">
-          <div class="sc-stalk" style="--i:0"></div>
-          <div class="sc-stalk" style="--i:1"></div>
-        </div>
+        <img src="images/pongal.jpeg" alt="Pongal" class="fest-bg-img">
         <div class="fest-label">
           <h3>Pongal</h3>
           <p>Harvest Festival</p>
-          <span class="fest-desc">A four-day Tamil harvest thanksgiving — rice boiled in milk till it overflows ("Pongal!"), offered first to the Sun God Surya.</span>
+          <span class="fest-desc">Rice boiled in milk till it overflows — offered first to the Sun God Surya.</span>
         </div>
         <label for="fpon" class="ex-tap-hint">Tap</label>
       </div>
       <div class="fest-detail">
-        <div class="mex-det-scroll">
+        <div class="fest-det-scroll">
           <h4>Pongal</h4>
           <p>A four-day harvest festival in Tamil Nadu dedicated to the Sun God. The highlight is the boiling of newly harvested rice in milk until it overflows from a clay pot, symbolizing prosperity.</p>
         </div>
-        <label for="ex-close" class="ex-det-close">✕</label>
+        <label for="ex-close" class="ex-det-close">&#x2715;</label>
       </div>
     </div>
 
-    <!-- NAVRATRI -->
-    <div class="festival f-navratri">
+    <!-- ══════════ NAVRATRI ══════════ -->
+    <div class="festival f-navratri" id="fest-navratri">
       <input type="radio" name="ex-modal" class="ex-toggle" id="fnav">
       <div class="fest-front">
-        <div class="navratri-bg"></div>
-        <div class="navratri-dandia">
-          <div class="dandia-stick ds-1"></div>
-          <div class="dandia-stick ds-2"></div>
-          <div class="dandia-stick ds-3"></div>
-          <div class="dandia-stick ds-4"></div>
-        </div>
-        <div class="navratri-colours">
-          <div class="nc nc-1"></div>
-          <div class="nc nc-2"></div>
-          <div class="nc nc-3"></div>
-        </div>
-        <div class="navratri-lamps">
-          <div class="nav-lamp" style="--i:0"></div>
-          <div class="nav-lamp" style="--i:1"></div>
-          <div class="nav-lamp" style="--i:2"></div>
-          <div class="nav-lamp" style="--i:3"></div>
-        </div>
+        <img src="images/daandiya.gif" alt="Navratri" class="fest-bg-img">
         <div class="fest-label">
           <h3>Navratri</h3>
-          <p>Nine Nights of Dance</p>
-          <span class="fest-desc">Nine nights honouring the divine feminine — Gujarat's dandiya raas, Bengal's Durga Puja, and Tamil Nadu's golu displays unfold simultaneously.</span>
+          <p>Nine Nights of Goddess</p>
+          <span class="fest-desc">Nine nights honouring the divine feminine — Gujarat's dandiya raas and Bengal's Durga Puja unfold simultaneously.</span>
         </div>
         <label for="fnav" class="ex-tap-hint">Tap</label>
       </div>
       <div class="fest-detail">
-        <div class="mex-det-scroll">
+        <div class="fest-det-scroll">
           <h4>Navratri</h4>
-          <p>A nine-night festival honoring the divine feminine (Goddess Durga). It is celebrated with fasting, grand idols in the East (Durga Puja), and massive community dances like Garba and Dandiya in the West.</p>
+          <p>A nine-night festival honoring the divine feminine (Goddess Durga). Celebrated with fasting, grand idols in the East (Durga Puja), and massive community dances like Garba and Dandiya in the West.</p>
         </div>
-        <label for="ex-close" class="ex-det-close">✕</label>
+        <label for="ex-close" class="ex-det-close">&#x2715;</label>
       </div>
     </div>
 
-    <!-- CHRISTMAS -->
-    <div class="festival f-christmas">
+    <!-- ══════════ CHRISTMAS ══════════ -->
+    <div class="festival f-christmas" id="fest-christmas">
       <input type="radio" name="ex-modal" class="ex-toggle" id="fxma">
       <div class="fest-front">
-        <div class="xmas-bg"></div>
-        <div class="xmas-snow">
-          <span style="--i:0;--x:10%;--s:6px"></span>
-          <span style="--i:1;--x:25%;--s:4px"></span>
-          <span style="--i:2;--x:40%;--s:8px"></span>
-          <span style="--i:3;--x:58%;--s:5px"></span>
-          <span style="--i:4;--x:72%;--s:7px"></span>
-          <span style="--i:5;--x:85%;--s:4px"></span>
-          <span style="--i:6;--x:95%;--s:6px"></span>
-        </div>
-        <div class="xmas-tree">
-          <div class="xt-tier xt-t1"></div>
-          <div class="xt-tier xt-t2"></div>
-          <div class="xt-tier xt-t3"></div>
-          <div class="xt-trunk"></div>
-          <div class="xt-star"></div>
-          <div class="xt-lights">
-            <span style="--c:#FF4444;--x:40%;--y:45%"></span>
-            <span style="--c:#FFD700;--x:60%;--y:55%"></span>
-            <span style="--c:#44FF44;--x:30%;--y:65%"></span>
-            <span style="--c:#4444FF;--x:55%;--y:70%"></span>
-            <span style="--c:#FF44FF;--x:45%;--y:78%"></span>
-          </div>
-        </div>
-        <div class="xmas-candles">
-          <div class="xmas-candle" style="--i:0"><div class="xc-flame"></div></div>
-          <div class="xmas-candle" style="--i:1"><div class="xc-flame"></div></div>
-          <div class="xmas-candle" style="--i:2"><div class="xc-flame"></div></div>
-        </div>
+        <img src="images/chrismas.jpg" alt="Christmas" class="fest-bg-img">
         <div class="fest-label">
           <h3>Christmas</h3>
-          <p>Festival of Light & Love</p>
-          <span class="fest-desc">Celebrated by India's 28 million Christians — from midnight Mass in Kerala's ancient Syrian churches to Goa's midnight street processions.</span>
+          <p>Festival of Giving</p>
+          <span class="fest-desc">From midnight Mass in Kerala's ancient Syrian churches to Goa's midnight street processions.</span>
         </div>
         <label for="fxma" class="ex-tap-hint">Tap</label>
       </div>
       <div class="fest-detail">
-        <div class="mex-det-scroll">
+        <div class="fest-det-scroll">
           <h4>Christmas</h4>
-          <p>Celebrated with immense enthusiasm across India's Christian and non-Christian populations alike, featuring midnight masses, the baking of rich plum cakes, and the decoration of banana or mango trees in coastal regions.</p>
+          <p>Commemorating the birth of Jesus Christ, Christmas in India uniquely blends Christian traditions with local cultural flavors, including midnight Mass, festive decorations, and the exchange of gifts and sweets.</p>
         </div>
-        <label for="ex-close" class="ex-det-close">✕</label>
+        <label for="ex-close" class="ex-det-close">&#x2715;</label>
       </div>
     </div>
 
@@ -1200,11 +1008,7 @@
         <div class="dex-platform">
           <div class="dex-spotlight"></div>
           <div class="dex-plate">
-            <div class="dex-food food-biryani">
-              <div class="biryani-rice br-layer1"></div>
-              <div class="biryani-rice br-layer2"></div>
-              <div class="biryani-spice"></div>
-            </div>
+            <img src="images/biryani.jpeg" alt="Biryani" class="dish-img">
           </div>
           <div class="dex-plate-rim"></div>
           <div class="dex-steam">
@@ -1222,11 +1026,11 @@
         <label for="dbir" class="ex-tap-hint">Tap</label>
       </div>
       <div class="dish-detail">
-        <div class="mex-det-scroll" style="color:rgba(74,48,16,1)">
+        <div class="mex-det-scroll">
           <h4>Biryani</h4>
           <p>A globally renowned, highly aromatic rice dish layered with marinated meats or vegetables, saffron, and whole spices. Each region has its own fiercely defended style, notably the Hyderabadi and Lucknowi variants.</p>
         </div>
-        <label for="ex-close" class="ex-det-close" style="color:rgba(74,48,16,0.8)">✕</label>
+        <label for="ex-close" class="ex-det-close">✕</label>
       </div>
     </div>
 
@@ -1236,11 +1040,7 @@
         <div class="dex-platform">
           <div class="dex-spotlight"></div>
           <div class="dex-plate">
-            <div class="dex-food food-dosa">
-              <div class="dosa-crepe"></div>
-              <div class="dosa-fold"></div>
-              <div class="dosa-sambar"></div>
-            </div>
+            <img src="images/dosa.jpeg" alt="Masala Dosa" class="dish-img">
           </div>
           <div class="dex-plate-rim"></div>
           <div class="dex-steam">
@@ -1258,11 +1058,11 @@
         <label for="ddos" class="ex-tap-hint">Tap</label>
       </div>
       <div class="dish-detail">
-        <div class="mex-det-scroll" style="color:rgba(74,48,16,1)">
+        <div class="mex-det-scroll">
           <h4>Dosa</h4>
           <p>Originating in South India, this is a thin, crispy, savory crepe made from a fermented batter of rice and lentils, traditionally served hot with spiced potato filling, coconut chutney, and tangy sambar.</p>
         </div>
-        <label for="ex-close" class="ex-det-close" style="color:rgba(74,48,16,0.8)">✕</label>
+        <label for="ex-close" class="ex-det-close">✕</label>
       </div>
     </div>
 
@@ -1272,11 +1072,7 @@
         <div class="dex-platform">
           <div class="dex-spotlight"></div>
           <div class="dex-plate">
-            <div class="dex-food food-butterchicken">
-              <div class="bc-gravy"></div>
-              <div class="bc-piece bc-p1"></div>
-              <div class="bc-piece bc-p2"></div>
-            </div>
+            <img src="images/butterchicken.jpeg" alt="Butter Chicken" class="dish-img">
           </div>
           <div class="dex-plate-rim"></div>
           <div class="dex-steam">
@@ -1294,11 +1090,11 @@
         <label for="dbch" class="ex-tap-hint">Tap</label>
       </div>
       <div class="dish-detail">
-        <div class="mex-det-scroll" style="color:rgba(74,48,16,1)">
+        <div class="mex-det-scroll">
           <h4>Butter Chicken</h4>
           <p>Also known as Murgh Makhani, this dish originated in Delhi. It features tandoor-roasted chicken pieces simmered in a velvety, mildly spiced, rich tomato gravy finished with butter and cream.</p>
         </div>
-        <label for="ex-close" class="ex-det-close" style="color:rgba(74,48,16,0.8)">✕</label>
+        <label for="ex-close" class="ex-det-close">✕</label>
       </div>
     </div>
 
@@ -1308,11 +1104,7 @@
         <div class="dex-platform">
           <div class="dex-spotlight"></div>
           <div class="dex-plate">
-            <div class="dex-food food-jalebi">
-              <div class="jalebi-spiral js-1"></div>
-              <div class="jalebi-spiral js-2"></div>
-              <div class="jalebi-syrup"></div>
-            </div>
+            <img src="images/jalebi.jpeg" alt="Jalebi" class="dish-img">
           </div>
           <div class="dex-plate-rim"></div>
           <div class="dex-reflection"></div>
@@ -1327,11 +1119,11 @@
         <label for="djal" class="ex-tap-hint">Tap</label>
       </div>
       <div class="dish-detail">
-        <div class="mex-det-scroll" style="color:rgba(74,48,16,1)">
+        <div class="mex-det-scroll">
           <h4>Jalebi</h4>
           <p>A beloved street sweet made by deep-frying a wheat flour batter in pretzel or circular shapes, which are then immediately soaked in a warm, saffron-laced sugar syrup.</p>
         </div>
-        <label for="ex-close" class="ex-det-close" style="color:rgba(74,48,16,0.8)">✕</label>
+        <label for="ex-close" class="ex-det-close">✕</label>
       </div>
     </div>
 
@@ -1341,11 +1133,7 @@
         <div class="dex-platform">
           <div class="dex-spotlight"></div>
           <div class="dex-plate">
-            <div class="dex-food food-laddu">
-              <div class="laddu-ball lb-1"></div>
-              <div class="laddu-ball lb-2"></div>
-              <div class="laddu-ball lb-3"></div>
-            </div>
+            <img src="images/motichur.jpeg" alt="Motichoor Laddu" class="dish-img">
           </div>
           <div class="dex-plate-rim"></div>
           <div class="dex-reflection"></div>
@@ -1360,11 +1148,11 @@
         <label for="dlad" class="ex-tap-hint">Tap</label>
       </div>
       <div class="dish-detail">
-        <div class="mex-det-scroll" style="color:rgba(74,48,16,1)">
+        <div class="mex-det-scroll">
           <h4>Laddu</h4>
           <p>Ubiquitous spherical sweets made from flour (like chickpea flour), fat (ghee), and sugar. They are the quintessential Indian celebratory sweet, constantly used as temple offerings and wedding gifts.</p>
         </div>
-        <label for="ex-close" class="ex-det-close" style="color:rgba(74,48,16,0.8)">&#x2715;</label>
+        <label for="ex-close" class="ex-det-close">&#x2715;</label>
       </div>
     </div>
 
@@ -1397,27 +1185,7 @@
       <input type="radio" name="ex-modal" class="ex-toggle" id="wtig">
       <div class="animal-front">
         <div class="animal-scene">
-          <div class="tiger">
-            <div class="tiger-body"></div>
-            <div class="tiger-stripes">
-              <div class="ts ts-1"></div>
-              <div class="ts ts-2"></div>
-              <div class="ts ts-3"></div>
-              <div class="ts ts-4"></div>
-            </div>
-            <div class="tiger-head">
-              <div class="th-face"></div>
-              <div class="th-eye th-eye-l"></div>
-              <div class="th-eye th-eye-r"></div>
-              <div class="th-nose"></div>
-            </div>
-            <div class="tiger-tail"></div>
-            <div class="tiger-shadow"></div>
-          </div>
-          <div class="jungle-grass">
-            <span style="--i:0"></span><span style="--i:1"></span><span style="--i:2"></span>
-            <span style="--i:3"></span><span style="--i:4"></span>
-          </div>
+          <img src="images/tiger.jpeg" alt="Bengal Tiger" class="animal-img">
         </div>
         <div class="ac-label">
           <h3>Bengal Tiger</h3>
@@ -1439,22 +1207,7 @@
       <input type="radio" name="ex-modal" class="ex-toggle" id="wpea">
       <div class="animal-front">
         <div class="animal-scene">
-          <div class="peacock">
-            <div class="peacock-body"></div>
-            <div class="peacock-neck"></div>
-            <div class="peacock-head">
-              <div class="ph-crest">
-                <span style="--i:0"></span><span style="--i:1"></span><span style="--i:2"></span>
-              </div>
-            </div>
-            <div class="peacock-tail">
-              <div class="ptail-fan">
-                <span style="--i:0"></span><span style="--i:1"></span><span style="--i:2"></span>
-                <span style="--i:3"></span><span style="--i:4"></span><span style="--i:5"></span>
-                <span style="--i:6"></span><span style="--i:7"></span>
-              </div>
-            </div>
-          </div>
+          <img src="images/peacock.jpg" alt="Indian Peacock" class="animal-img">
         </div>
         <div class="ac-label">
           <h3>Indian Peacock</h3>
@@ -1476,21 +1229,7 @@
       <input type="radio" name="ex-modal" class="ex-toggle" id="wele">
       <div class="animal-front">
         <div class="animal-scene">
-          <div class="elephant">
-            <div class="el-body"></div>
-            <div class="el-head"></div>
-            <div class="el-trunk"></div>
-            <div class="el-ear el-ear-l"></div>
-            <div class="el-ear el-ear-r"></div>
-            <div class="el-tusk el-tusk-l"></div>
-            <div class="el-tusk el-tusk-r"></div>
-            <div class="el-legs">
-              <div class="el-leg" style="--i:0"></div>
-              <div class="el-leg" style="--i:1"></div>
-              <div class="el-leg" style="--i:2"></div>
-              <div class="el-leg" style="--i:3"></div>
-            </div>
-          </div>
+          <img src="images/elephant.jpg" alt="Indian Elephant" class="animal-img">
         </div>
         <div class="ac-label">
           <h3>Indian Elephant</h3>
@@ -1512,20 +1251,7 @@
       <input type="radio" name="ex-modal" class="ex-toggle" id="wsno">
       <div class="animal-front">
         <div class="animal-scene">
-          <div class="snow-leopard">
-            <div class="sl-body"></div>
-            <div class="sl-spots">
-              <div class="sl-spot" style="--x:20%;--y:25%;--s:10px"></div>
-              <div class="sl-spot" style="--x:35%;--y:40%;--s:12px"></div>
-              <div class="sl-spot" style="--x:55%;--y:20%;--s:8px"></div>
-              <div class="sl-spot" style="--x:70%;--y:45%;--s:11px"></div>
-              <div class="sl-spot" style="--x:25%;--y:65%;--s:9px"></div>
-              <div class="sl-spot" style="--x:60%;--y:65%;--s:13px"></div>
-            </div>
-            <div class="sl-head"></div>
-            <div class="sl-tail"></div>
-          </div>
-          <div class="snow-bg"></div>
+          <img src="images/snowleopard.jpeg" alt="Snow Leopard" class="animal-img">
         </div>
         <div class="ac-label">
           <h3>Snow Leopard</h3>
@@ -1568,31 +1294,7 @@
       <input type="radio" name="ex-modal" class="ex-toggle" id="art-dancer">
       <div class="arts-front">
         <div class="arts-dancer">
-          <div class="dancer-figure">
-            <div class="df-hair-bun"></div>
-            <div class="df-bun-flower"></div>
-            <div class="df-crown"></div>
-            <div class="df-head"></div>
-            <div class="df-earring df-earring-l"></div>
-            <div class="df-earring df-earring-r"></div>
-            <div class="df-neck"></div>
-            <div class="df-necklace"></div>
-            <div class="df-torso"></div>
-            <div class="df-arm df-arm-r"></div>
-            <div class="df-arm df-arm-l"></div>
-            <div class="df-hand df-hand-r"></div>
-            <div class="df-hand df-hand-l"></div>
-            <div class="df-waist-belt"></div>
-            <div class="df-skirt"></div>
-            <div class="df-skirt-gold-border"></div>
-            <div class="df-leg df-leg-r"></div>
-            <div class="df-leg df-leg-l"></div>
-            <div class="df-foot df-foot-r"></div>
-            <div class="df-foot df-foot-l"></div>
-            <div class="df-ankle-bells"></div>
-          </div>
-          <div class="dancer-glow"></div>
-          <div class="dancer-shadow"></div>
+          <img src="images/bharatnatyam.jpg" alt="Bharatanatyam" class="arts-dancer-img">
           <div class="dancer-label">
             <h3>Bharatanatyam</h3>
             <span>Tamil Nadu · 2000 BCE</span>
@@ -1772,10 +1474,17 @@
   <!-- Milky Way band -->
   <div class="isro-milkyway"></div>
 
-  <!-- Planet (Mars reference) -->
-  <div class="isro-card">
-    <input type="radio" name="ex-modal" class="ex-toggle" id="isro-planet">
-    <div class="isro-front">
+  <!-- Orbital paths -->
+  <div class="isro-orbits">
+    <div class="isro-orbit io-1"></div>
+    <div class="isro-orbit io-2"></div>
+    <div class="isro-orbit io-3"></div>
+  </div>
+
+  <!-- Left side: CSS Space Art -->
+  <div class="isro-art-side">
+    <!-- Planet (Mars) -->
+    <div class="isro-planet-wrap">
       <div class="isro-planet">
         <div class="planet-body"></div>
         <div class="planet-ring"></div>
@@ -1785,22 +1494,12 @@
           <div class="crater" style="--x:55%;--y:25%;--s:12px"></div>
           <div class="crater" style="--x:70%;--y:55%;--s:15px"></div>
         </div>
-        <label for="isro-planet" class="ex-tap-hint">Tap</label>
       </div>
+      <div class="isro-art-label">Mangalyaan · Mars Orbit</div>
     </div>
-    <div class="isro-detail">
-      <div class="mex-det-scroll">
-        <h4>Mars Orbiter Mission</h4>
-        <p>Mangalyaan made global history by succeeding on its maiden attempt—a first for any nation. Built at a record low cost of just $74 million (cheaper than many Hollywood sci-fi movies), the probe successfully mapped the Martian surface and detected argon-40 in the planet's exosphere.</p>
-      </div>
-      <label for="ex-close" class="ex-det-close">✕</label>
-    </div>
-  </div>
 
-  <!-- Rocket launch -->
-  <div class="isro-card">
-    <input type="radio" name="ex-modal" class="ex-toggle" id="isro-rocket">
-    <div class="isro-front">
+    <!-- Rocket -->
+    <div class="isro-rocket-wrap">
       <div class="isro-rocket-scene">
         <div class="rocket">
           <div class="rocket-cone"></div>
@@ -1822,22 +1521,12 @@
           <div class="rocket-glow"></div>
         </div>
         <div class="rocket-trail"></div>
-        <label for="isro-rocket" class="ex-tap-hint">Tap</label>
       </div>
+      <div class="isro-art-label">PSLV · Launch Vehicle</div>
     </div>
-    <div class="isro-detail">
-      <div class="mex-det-scroll">
-        <h4>Launch Vehicles</h4>
-        <p>ISRO's workhorse, the PSLV, boasts a ~95% success rate and set a world record by launching 104 satellites in a single flight. The newer LVM3 (Launch Vehicle Mark-3) serves as India's heavy-lift rocket, designed to carry massive payloads and power the upcoming Gaganyaan human spaceflight mission.</p>
-      </div>
-      <label for="ex-close" class="ex-det-close">✕</label>
-    </div>
-  </div>
 
-  <!-- Satellite (Chandrayaan inspired) -->
-  <div class="isro-card">
-    <input type="radio" name="ex-modal" class="ex-toggle" id="isro-sat">
-    <div class="isro-front">
+    <!-- Satellite -->
+    <div class="isro-sat-wrap">
       <div class="isro-satellite">
         <div class="sat-body"></div>
         <div class="sat-panel sat-panel-l">
@@ -1853,59 +1542,95 @@
         <div class="sat-antenna"></div>
         <div class="sat-orbit"></div>
         <div class="sat-glow"></div>
-        <label for="isro-sat" class="ex-tap-hint">Tap</label>
       </div>
+      <div class="isro-art-label">Chandrayaan · Lunar Orbiter</div>
     </div>
-    <div class="isro-detail">
-      <div class="mex-det-scroll">
+  </div>
+
+  <!-- Right side: Mission Control Console -->
+  <div class="isro-console">
+    <div class="console-header">
+      <div class="console-status-dot"></div>
+      <span>ISRO MISSION CONTROL</span>
+      <div class="console-scan-line"></div>
+    </div>
+
+    <!-- Mission selector tabs -->
+    <div class="console-tabs">
+      <button class="ctab active" data-mission="mangalyaan">MANGALYAAN</button>
+      <button class="ctab" data-mission="pslv">PSLV</button>
+      <button class="ctab" data-mission="chandrayaan">CHANDRAYAAN</button>
+    </div>
+
+    <!-- Mission info panels -->
+    <div class="console-panels">
+      <div class="cpanel active" data-panel="mangalyaan">
+        <div class="cpanel-icon">🔴</div>
+        <h4>Mars Orbiter Mission</h4>
+        <div class="cpanel-stats">
+          <div class="cp-stat"><span class="cp-val">$74M</span><span class="cp-label">Mission Cost</span></div>
+          <div class="cp-stat"><span class="cp-val">8 yrs</span><span class="cp-label">Operational</span></div>
+          <div class="cp-stat"><span class="cp-val">2014</span><span class="cp-label">Launch Year</span></div>
+        </div>
+        <p>Mangalyaan made global history by succeeding on its maiden attempt — a first for any nation. Built at a record low cost, the probe mapped the Martian surface and detected argon-40 in the exosphere. Communication ceased in late 2022.</p>
+        <div class="cpanel-status">
+          <span class="cp-badge cp-ended">MISSION ENDED</span>
+        </div>
+      </div>
+
+      <div class="cpanel" data-panel="pslv">
+        <div class="cpanel-icon">🚀</div>
+        <h4>Launch Vehicles</h4>
+        <div class="cpanel-stats">
+          <div class="cp-stat"><span class="cp-val">95%</span><span class="cp-label">PSLV Success</span></div>
+          <div class="cp-stat"><span class="cp-val">104</span><span class="cp-label">Satellites (Record)</span></div>
+          <div class="cp-stat"><span class="cp-val">50+</span><span class="cp-label">Total Launches</span></div>
+        </div>
+        <p>ISRO's workhorse, the PSLV, set a world record by launching 104 satellites in a single flight. The newer LVM3 serves as India's heavy-lift rocket, designed to carry massive payloads and power the upcoming Gaganyaan human spaceflight mission.</p>
+        <div class="cpanel-status">
+          <span class="cp-badge cp-active">OPERATIONAL</span>
+        </div>
+      </div>
+
+      <div class="cpanel" data-panel="chandrayaan">
+        <div class="cpanel-icon">🌙</div>
         <h4>Lunar Exploration</h4>
-        <p>India's lunar program changed planetary science: Chandrayaan-1 definitively discovered water molecules on the Moon. While Chandrayaan-2's orbiter continues high-resolution lunar mapping, Chandrayaan-3 made a historic soft landing near the challenging, crater-filled lunar south pole in 2023.</p>
+        <div class="cpanel-stats">
+          <div class="cp-stat"><span class="cp-val">3</span><span class="cp-label">Missions</span></div>
+          <div class="cp-stat"><span class="cp-val">2023</span><span class="cp-label">South Pole Landing</span></div>
+          <div class="cp-stat"><span class="cp-val">H2O</span><span class="cp-label">Water Discovered</span></div>
+        </div>
+        <p>Chandrayaan-1 definitively discovered water molecules on the Moon. While Chandrayaan-2's orbiter continues high-resolution lunar mapping, Chandrayaan-3 made a historic soft landing near the crater-filled lunar south pole in 2023.</p>
+        <div class="cpanel-status">
+          <span class="cp-badge cp-active">CHANDRAYAAN-3 LANDED</span>
+        </div>
       </div>
-      <label for="ex-close" class="ex-det-close">✕</label>
     </div>
-  </div>
 
-  <!-- Holographic HUD panels -->
-  <div class="isro-hud">
-    <div class="hud-panel hp-1">
-      <div class="hud-title">MISSION STATUS</div>
-      <div class="hud-data">
-        <div class="hd-row"><span>Chandrayaan-3</span><span class="hd-val hd-success">SUCCESS</span></div>
-        <div class="hd-row"><span>Mangalyaan</span><span class="hd-val hd-success">ACTIVE</span></div>
-        <div class="hd-row"><span>Aditya-L1</span><span class="hd-val hd-live">LIVE</span></div>
-        <div class="hd-row"><span>PSLV launches</span><span class="hd-val">50+</span></div>
-      </div>
-      <div class="hud-scan-line"></div>
+    <!-- Mission timeline -->
+    <div class="console-timeline">
+      <div class="ctl-node done"><span>2008</span><small>Chandrayaan-1</small></div>
+      <div class="ctl-line"></div>
+      <div class="ctl-node done"><span>2013</span><small>Mangalyaan</small></div>
+      <div class="ctl-line"></div>
+      <div class="ctl-node done"><span>2023</span><small>Chandrayaan-3</small></div>
+      <div class="ctl-line"></div>
+      <div class="ctl-node next"><span>2025</span><small>Gaganyaan</small></div>
     </div>
-    <div class="hud-panel hp-2">
-      <div class="hud-title">ORBITAL PARAMETERS</div>
-      <div class="hud-bar-chart">
-        <div class="hbc-bar" style="--h:60%;--c:#00ff88"><span>LEO</span></div>
-        <div class="hbc-bar" style="--h:80%;--c:#00ccff"><span>GTO</span></div>
-        <div class="hbc-bar" style="--h:40%;--c:#ff9900"><span>GEO</span></div>
-        <div class="hbc-bar" style="--h:100%;--c:#ff4488"><span>DEEP</span></div>
-      </div>
-      <div class="hud-scan-line"></div>
-    </div>
-  </div>
 
-  <!-- Orbital paths -->
-  <div class="isro-orbits">
-    <div class="isro-orbit io-1"></div>
-    <div class="isro-orbit io-2"></div>
-    <div class="isro-orbit io-3"></div>
+    <!-- Achievement badges -->
+    <div class="console-badges">
+      <div class="cbadge"><span class="cb-num">2023</span><span class="cb-text">Moon's South Pole · First Ever</span></div>
+      <div class="cbadge"><span class="cb-num">2014</span><span class="cb-text">Mars Orbit · First Attempt</span></div>
+      <div class="cbadge"><span class="cb-num">104</span><span class="cb-text">Satellites · Single Launch</span></div>
+    </div>
   </div>
 
   <div class="isro-content">
     <span class="sno">09</span>
     <h2 class="scene-title">India in Space</h2>
     <div class="scene-divider"></div>
-    <p class="scene-body">From Thumba to the Moon's south pole — India's space programme stands among the world's finest, achieved at a fraction of the cost. The only nation to reach Mars on its first attempt and the first to land on the Moon's south pole.</p>
-    <div class="isro-achievements">
-      <div class="ia"><span class="ia-n">2023</span><span class="ia-l">Moon's South Pole · First Ever</span></div>
-      <div class="ia"><span class="ia-n">2014</span><span class="ia-l">Mars Orbit · First Attempt</span></div>
-      <div class="ia"><span class="ia-n">104</span><span class="ia-l">Satellites · Single PSLV Launch</span></div>
-    </div>
+    <p class="scene-body">From Thumba to the Moon's south pole — India's space programme stands among the world's finest, achieved at a fraction of the cost.</p>
   </div>
 </section>
 
@@ -2164,6 +1889,41 @@
 </section>
 
 </main><!-- /.journey -->
+
+<!-- ══════════════════════════════════════════════════════════
+     CREDITS
+══════════════════════════════════════════════════════════ -->
+<section class="credits-section" id="credits">
+  <div class="credits-inner">
+    <div class="credits-circle">
+      <div class="credits-ring"></div>
+      <div class="credits-logo">
+        <img src="logo.png" alt="Logo" onerror="this.style.display='none';this.parentNode.innerHTML='<span class=credits-placeholder>M</span>'">
+        <span class="credits-placeholder" style="display:none">M</span>
+      </div>
+    </div>
+    <p class="credits-name">Made by <strong>Pratyush Maurya</strong> <span class="credits-class">9-Empowered</span></p>
+    <div class="credits-divider"></div>
+    <div class="credits-tools">
+      <p class="credits-tools-title">Tools I Used</p>
+      <div class="credits-tool-list">
+        <div class="credits-tool">
+          <span class="credits-tool-name">Gemini</span>
+          <span class="credits-tool-role">For Information</span>
+        </div>
+        <div class="credits-tool">
+          <span class="credits-tool-name">ChatGPT</span>
+          <span class="credits-tool-role">Diagnosing Problems</span>
+        </div>
+        <div class="credits-tool">
+          <span class="credits-tool-name">Deepseek</span>
+          <span class="credits-tool-role">For Coding</span>
+        </div>
+      </div>
+    </div>
+    <p class="credits-thanks">Thank You</p>
+  </div>
+</section>
 
 <footer class="site-footer">
   <div class="sf-inner">
